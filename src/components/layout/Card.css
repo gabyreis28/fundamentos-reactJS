@@ -4,6 +4,9 @@
   overflow: hidden;
   border: 3px solid red;
   margin: 25px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
 }
 
 .Card .Titulo {
@@ -13,6 +16,7 @@
 }
 
 .Card .Conteudo {
+ flex-grow: 1;
  background-color: white;
  color:black;
  padding: 10px;
