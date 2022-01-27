@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "extends": ["airbnb-base", "plugin:eslint-plugin/recommended"],
+  "plugins": ["eslint-plugin"],
+  "env": {
+     "es6": true,
+     "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "script"
+  }
+}
