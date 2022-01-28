@@ -5,11 +5,8 @@ export default function Fragmento(props){
     <>
       <h2>Fragmento</h2>
       <p>Cuidado com esse erro! erro adjacent, 
-        necessário envolver em uma tag, sem atributo
+        necessário envolver em uma tag
       </p>
-      <React.Fragment key="1">
-        sem uso da tag div envolvendo, utilizando um atributo
-      </React.Fragment>
     </>
   )
 }
