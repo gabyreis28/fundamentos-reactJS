@@ -4,10 +4,12 @@ import PrimeiroComp from './components/basico/Primeiro'
 import ParametroComp from './components/basico/Parametro'
 import FragmentoComp from './components/basico/Fragmento'
 import FamiliaComp from './components/basico/Familia'
+import Aleatorio from './components/basico/Aleatorio'
 import FamiliaMembrosComp from './components/basico/FamiliaMembros'
 import ListaAlunosComp from './components/repeticao/ListaAlunos'
 import TabelaProdutosComp from './components/repeticao/TabelaProdutos'
-import Aleatorio from './components/basico/Aleatorio'
+import ParOuImparComp from './components/condicional/ParOuImpar'
+import UsuarioInfoComp from './components/condicional/UsuarioInfo'
 import Card from './components/layout/Card'
 import './App.css'
 
@@ -17,6 +19,11 @@ export default () => (
       Fundamentos React
     </h1>
       <div className="Cards">
+      <Card titulo="#008 - Renderização Condicional" color="#2e0b07">   
+        <ParOuImparComp numero={ 20 } />
+        <UsuarioInfoComp usuario={{ nome: 'Ana' }} />
+        <UsuarioInfoComp usuario={{ email: 'Ana@email.com' }} />
+      </Card>
 
       <Card titulo="#007 - Repetição Produtos" color="#954e9a">   
         <TabelaProdutosComp/>
