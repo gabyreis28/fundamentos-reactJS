@@ -22,7 +22,8 @@ export default () => (
       <Card titulo="#008 - Renderização Condicional" color="#2e0b07">   
         <ParOuImparComp numero={ 20 } />
         <UsuarioInfoComp usuario={{ nome: 'Ana' }} />
-        <UsuarioInfoComp usuario={{ email: 'Ana@email.com' }} />
+        <UsuarioInfoComp/>
+        {/* <UsuarioInfoComp usuario={{ email: 'Ana@email.com' }} /> */}
       </Card>
 
       <Card titulo="#007 - Repetição Produtos" color="#954e9a">   
