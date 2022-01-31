@@ -1,15 +1,15 @@
-import React from 'react'
-import IndiretaFilho from './IndiretaFilho'
+import React from 'react';
+import IndiretaFilho from './IndiretaFilho';
 
-export default props => {
-  function fornecerInformacoes(nome,idade,nerd){
-    console.log(nome,idade,nerd)
+export default () => {
+  function fornecerInformacoes(nome, idade, nerd) {
+    console.log(nome, idade, nerd);
   }
-  
+
   return (
     <div>
-     <div>Componete Pai</div>
-      <IndiretaFilho quantoclicar = { fornecerInformacoes } />
+      <div>Componete Pai</div>
+      <IndiretaFilho quantoclicar={fornecerInformacoes} />
     </div>
-  )
-}
+  );
+};

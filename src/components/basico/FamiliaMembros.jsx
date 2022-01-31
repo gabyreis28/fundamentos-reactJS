@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 export default props => {
   return (
-  <span>
-    <div>
-      {props.nome } <strong>{ props.sobrenome }</strong>
-    </div>
-  </span>
-  )
-}
+    <span>
+      <div>
+        {props.nome} <strong>{props.sobrenome}</strong>
+      </div>
+    </span>
+  );
+};

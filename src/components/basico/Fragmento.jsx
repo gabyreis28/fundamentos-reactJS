@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-export default function Fragmento(props){
-  return(
+export default function Fragmento() {
+  return (
     <>
       <h2>Fragmento</h2>
-      <p>Cuidado com esse erro! erro adjacent, 
-        necessário envolver em uma tag
+      <p>
+        Cuidado com esse erro! erro adjacent, necessário envolver em uma tag
       </p>
     </>
-  )
+  );
 }

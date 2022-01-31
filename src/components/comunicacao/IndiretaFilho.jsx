@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react';
 
 export default props => {
-  const cb = props.quantoclicar
+  const cb = props.quantoclicar;
 
   return (
     <div>
@@ -13,9 +13,7 @@ export default props => {
       }> 
         Fornecer Informações
       </button>*/}
-       <button onClick={ e => cb('João', 53, true) }>
-        Fornecer Informações
-      </button>
+      <button onClick={() => cb('João', 53, true)}>Fornecer Informações</button>
     </div>
-  )
-}
+  );
+};
