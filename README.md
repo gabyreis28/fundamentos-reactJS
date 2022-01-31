@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src=".github/assets/Cards.png" alt="Cards React"></a>
+  <img src=".github/assets/cards.png" alt="Cards React"></a>
 </p>
 
 <p align="center">
