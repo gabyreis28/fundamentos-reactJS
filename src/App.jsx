@@ -10,6 +10,8 @@ import ListaAlunosComp from './components/repeticao/ListaAlunos'
 import TabelaProdutosComp from './components/repeticao/TabelaProdutos'
 import ParOuImparComp from './components/condicional/ParOuImpar'
 import UsuarioInfoComp from './components/condicional/UsuarioInfo'
+import DiretaPaiComp from './components/comunicacao/DiretaPai'
+import IndiretaPaiComp from './components/comunicacao/IndiretaPai'
 import Card from './components/layout/Card'
 import './App.css'
 
@@ -18,7 +20,17 @@ export default () => (
     <h1>
       Fundamentos React
     </h1>
+
       <div className="Cards">
+
+      <Card titulo="#010 - Comunicação Indireta" color="#32CD32">   
+        <IndiretaPaiComp/>
+      </Card>
+
+      <Card titulo="#009 - Comunicação Direta" color="#8B4513">   
+        <DiretaPaiComp/>
+      </Card>
+
       <Card titulo="#008 - Renderização Condicional" color="#2e0b07">   
         <ParOuImparComp numero={ 20 } />
         <UsuarioInfoComp usuario={{ nome: 'Ana' }} />
