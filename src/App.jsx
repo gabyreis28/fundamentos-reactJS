@@ -14,6 +14,7 @@ import DiretaPaiComp from './components/comunicacao/DiretaPai';
 import IndiretaPaiComp from './components/comunicacao/IndiretaPai';
 import InputComp from './components/formulario/Input';
 import ContadorClassComp from './components/basico/contador/Contador';
+import MegaSenaComp from './components/mega/Mega';
 import Card from './components/layout/Card';
 import './App.css';
 
@@ -22,6 +23,10 @@ export default () => (
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
+      <Card titulo="#013 - MegaSena" color="#BC8F8F">
+        <MegaSenaComp />
+      </Card>
+
       <Card titulo="#012 - Contador" color="#808080">
         <ContadorClassComp numeroInicial={10} />
       </Card>
