@@ -4,6 +4,7 @@
     "es2020": true,
     "jest": true
   },
+  "parser": "babel-eslint",
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
