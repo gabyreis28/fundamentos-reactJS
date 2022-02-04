@@ -1,12 +1,15 @@
-
-<p align="center">
-  <img src=".github/assets/cards.png" alt="Cards React"></a>
-</p>
+<div>
+  <p align="center">
+    <img src=".github/assets/cards01.png" alt="Cards React"></a>
+  </p>
+</div>
+<div>
+  <p align="center"><img src=".github/assets/cards02.png" alt="Cards React"></a><p>
+</div>
 
 <p align="center">
  Projeto de estudo
 </p>
-
 
 ## Contato
 
